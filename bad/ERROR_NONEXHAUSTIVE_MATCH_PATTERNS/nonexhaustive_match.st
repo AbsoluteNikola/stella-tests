@@ -1,4 +1,3 @@
-// ERROR_NONEXHAUSTIVE_MATCH_PATTERNS
 language core;
 
 extend with #sum-types, #unit-type;

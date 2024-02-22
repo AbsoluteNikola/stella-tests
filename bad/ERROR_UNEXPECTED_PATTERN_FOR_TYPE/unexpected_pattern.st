@@ -1,4 +1,3 @@
-// ERROR_UNEXPECTED_PATTERN_FOR_TYPE
 language core;
 
 extend with #sum-types, #unit-type;

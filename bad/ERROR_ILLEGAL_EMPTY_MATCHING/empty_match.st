@@ -1,4 +1,3 @@
-// ERROR_ILLEGAL_EMPTY_MATCHING
 language core;
 
 extend with #sum-types, #unit-type;
