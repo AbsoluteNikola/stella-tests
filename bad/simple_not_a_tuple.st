@@ -1,6 +1,7 @@
+// ERROR_NOT_A_TUPLE
 language core;
 extend with #tuples;
 
 fn main(n : Nat) -> Nat {
-  return {n, succ(n), true}.4
+  return true.1
 }

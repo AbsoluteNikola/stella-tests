@@ -1,3 +1,4 @@
+// ERROR_UNEXPECTED_RECORD_FIELDS, ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
 language core;
 extend with #records;
 
