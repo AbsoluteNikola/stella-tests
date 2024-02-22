@@ -1,6 +1,6 @@
-// ERROR_UNDEFINED_VARIABLE
 language core;
+extend with #records;
 
 fn main(n : Nat) -> Nat {
-    return a
+  return 0.fst
 }

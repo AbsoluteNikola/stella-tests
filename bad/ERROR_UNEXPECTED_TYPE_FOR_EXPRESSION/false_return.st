@@ -1,4 +1,3 @@
-// ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
 language core;
 
 fn increment_twice(n : Nat) -> Nat {
