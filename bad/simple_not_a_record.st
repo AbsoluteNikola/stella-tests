@@ -1,6 +1,7 @@
+// ERROR_NOT_A_RECORD
 language core;
 extend with #records;
 
 fn main(n : Nat) -> Nat {
-  return { fst = 0, snd = true }
+  return 0.fst
 }

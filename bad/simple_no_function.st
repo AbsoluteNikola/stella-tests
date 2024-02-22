@@ -1,6 +1,6 @@
+// ERROR_NOT_A_FUNCTION
 language core;
-extend with #tuples;
 
 fn main(n : Nat) -> Nat {
-  return true.1
+  return n(n)
 }

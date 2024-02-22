@@ -1,3 +1,4 @@
+// ERROR_UNEXPECTED_FIELD_ACCESS
 language core;
 extend with #records;
 
