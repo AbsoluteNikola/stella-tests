@@ -1,5 +1,6 @@
 language core;
+extend with #tuples;
 
 fn main(n : Nat) -> Bool {
-    return (succ(0) == a)
+  return {0, 0}.1
 }
