@@ -1,8 +1,8 @@
 language core;
-extend with #panic;
+extend with #panic, #unit-type;
 
 fn main(n : Nat) -> Nat {
   return (fn(x : Nat) {
-    	return panic!
+    	return if false then x else panic!
   }) (0)
 }
