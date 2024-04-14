@@ -1,3 +1,5 @@
+// ERROR_AMBIGUOUS_THROW_TYPE
+
 language core;
 
 extend with #exceptions, #natural-literals;
