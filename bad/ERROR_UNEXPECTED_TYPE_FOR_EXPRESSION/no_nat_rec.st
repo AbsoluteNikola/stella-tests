@@ -1,4 +1,4 @@
-// ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+// ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
 language core;
 
 fn main(n : Nat) -> Nat {
