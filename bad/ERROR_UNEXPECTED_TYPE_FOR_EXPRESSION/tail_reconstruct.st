@@ -1,3 +1,4 @@
+// ERROR_NOT_A_LIST
 language core;
 
 extend with #type-reconstruction, #lists;
