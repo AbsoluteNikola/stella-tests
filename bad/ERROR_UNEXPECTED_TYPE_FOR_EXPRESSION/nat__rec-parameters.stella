@@ -1,0 +1,27 @@
+// ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+language core;
+
+fn NatRect1(m : Nat) -> Nat {
+  return Nat::rec(true, m, fn(i : Nat) {
+      return fn(r : Nat) { return succ(r) } })
+}
+
+fn NatRect2(m : Bool) -> Nat {
+  return Nat::rec(succ(0), m, fn(i : Nat) {
+      return fn(r : Nat) { return succ(r) } })
+}
+
+fn NatRect3(m : Nat) -> Nat {
+  return Nat::rec(succ(0), m, fn(i : Bool) {
+      return fn(r : Nat) { return succ(r) } })
+}
+
+fn NatRect4(m : Nat) -> Nat {
+  return Nat::rec(succ(0), m, fn(i : Nat) {
+      return fn(r : Bool) { return succ(r) } })
+}
+
+fn main(n : Nat) -> Nat {
+  return Nat::rec(succ(0), n, fn(i : Nat) {
+      return fn(r : Bool) { return true } })
+}
